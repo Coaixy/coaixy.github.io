@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Java中ForEach循环</title>
+    <link href="/2021/02/07/javaforeach/"/>
+    <url>/2021/02/07/javaforeach/</url>
+    
+    <content type="html"><![CDATA[<p>众所周知For是编程中常用的手法</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-type">int</span> arr[] = &#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br><span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;i&lt;<span class="hljs-number">2</span>;i++)&#123;<br><span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(arr[i]);<br>&#125;<br></code></pre></td></tr></table></figure><p>以上是常规的遍历手法<br>那么Foreach写法如何实现呢</p><figure class="highlight gml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gml"><span class="hljs-keyword">for</span>(元素类型t 元素变量<span class="hljs-symbol">x</span> : 遍历对象obj)&#123;<br>引用了<span class="hljs-symbol">x</span>的java语句;<br>&#125;<br></code></pre></td></tr></table></figure><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-type">int</span> arr[] = &#123;<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>&#125;;   <br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> x : arr) &#123;   <br>    <span class="hljs-keyword">System</span>.<span class="hljs-keyword">out</span>.println(x); <br>&#125;<br></code></pre></td></tr></table></figure><p>如上<br>Foreach写法其实在Java1.5就有了<br>它可以让代码更加简洁，直观，带来了极大的方便。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Java</tag>
+      
+      <tag>编程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于获取某程序接口</title>
     <link href="/2021/02/06/getqb-api/"/>
     <url>/2021/02/06/getqb-api/</url>
@@ -11,10 +38,20 @@
     <content type="html"><![CDATA[<p>近期听说腾讯8亿数据泄露，网上也有很多人搞到了，而且做出了出格的违法行为，并且公开软件，真是罪大恶极。<br><img src="https://i.loli.net/2021/02/06/AIdePNHKpbqWwr6.jpg" alt="本程序取自网络">本程序取自网络<br><img src="https://i.loli.net/2021/02/06/kuisZNwHcMXRJB6.jpg" alt="软件界面.jpg">软件界面<br><img src="https://i.loli.net/2021/02/06/kuisZNwHcMXRJB6.jpg" alt="对自己进行了测试.jpg">对自己进行了测试<br><img src="https://i.loli.net/2021/02/06/IHhklAWZg1j7xR4.jpg" alt="打开分析工具.jpg">打开分析工具<br><img src="https://i.loli.net/2021/02/06/m8VYpMnRyKeJhD9.jpg" alt="进入主模块.jpg">进入主模块<br><img src="https://i.loli.net/2021/02/06/vaowT5NHyDtqR2Z.jpg" alt="通过字符串查询获取API.jpg">通过字符串查询获取AP<br><img src="https://i.loli.net/2021/02/06/tDHeWNbduxwl8In.jpg" alt="API测试.jpg">API测试<br>作者这里对自己进行了测试，确实可以<br>但是个人信息泄露属于违法犯罪行为，请大家不要尝试。<br>技术无罪，使用者有罪，</p>]]></content>
     
     
+    <categories>
+      
+      <category>热点追踪</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>技术分享</tag>
+      <tag>腾讯</tag>
+      
+      <tag>信息安全</tag>
+      
+      <tag>逆向分析</tag>
       
     </tags>
     
@@ -30,10 +67,16 @@
     <content type="html"><![CDATA[<p>这个博客主要是分享我的学习历程<br>不会有太多和我本人现实相关的东西<br>最多提提网络的事件和我个人的看法</p>]]></content>
     
     
+    <categories>
+      
+      <category>杂记</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>杂记</tag>
+      <tag>乱写一通</tag>
       
     </tags>
     
@@ -49,12 +92,12 @@
     <content type="html"><![CDATA[<p>Hello World</p>]]></content>
     
     
+    <categories>
+      
+      <category>杂记</category>
+      
+    </categories>
     
-    <tags>
-      
-      <tag>杂记</tag>
-      
-    </tags>
     
   </entry>
   
