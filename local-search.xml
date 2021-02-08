@@ -4,6 +4,87 @@
   
   
   <entry>
+    <title>VB6文件说明与基础控件</title>
+    <link href="/2021/02/08/vb3/"/>
+    <url>/2021/02/08/vb3/</url>
+    
+    <content type="html"><![CDATA[<p>#文件说明</p><blockquote><p>vbp - VB工程文件</p></blockquote><blockquote><p>frm - VB窗体文件</p></blockquote><blockquote><p>vbw - 工作区文件</p></blockquote><p>#基础控件</p><p>[<img src="https://s3.ax1x.com/2021/02/08/yUl9dU.png" alt="yUl9dU.png">]<br>#类名<br>标签 Label</p><p>文本框 TextBox</p><p>按钮 CommandButton</p><p>列表框 ListBox</p><p>#属性</p><blockquote><p>Caption 大部分控件的显示 如标签和按钮<br>例如：<br><code>Label1.Caption</code><br>Text 文本框的内容<br>例如：<br><code>Text1.text</code><br>list 列表框的列表<br>例如：<br><code>List1.list</code><br>#方法<br>additem xxxx   - 添加一项到列表框内<br>例如：<br><code>List1.additem &quot;233&quot;</code><br>clear - 清除列表框的内容<br>例如：<br><code>List1.clear</code></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>VB</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VB6类型与转换</title>
+    <link href="/2021/02/08/vb2/"/>
+    <url>/2021/02/08/vb2/</url>
+    
+    <content type="html"><![CDATA[<p>#类型<br>Integar 整数型  范围：-32768 至 32767</p><p>String 字符串型</p><p>Boolean 布尔型<br>#方法<br>申明方式：</p><p><code>Dim 变量名 AS 类型</code></p><p><code>例如 ： Dim a AS Integar</code><br>#转换函数<br><code>Val(参数)</code>  -   将字符串转换为数值 返回数值</p><p><code>Str(参数)</code> -  将数值或者其他类型转换为字符</p><p><code>trim(参数)</code> - 去除空格<br>#特殊情况<br><code>Val(&quot;a&quot;)</code>  值为0</p><p><code>Val(&quot;abc&quot;)</code> 值为0</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>VB</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VB6安装</title>
+    <link href="/2021/02/08/vb1/"/>
+    <url>/2021/02/08/vb1/</url>
+    
+    <content type="html"><![CDATA[<p>#安装<br>下载地址：<a href="https://share.weiyun.com/7GeWGeJx">https://share.weiyun.com/7GeWGeJx</a></p><p>下载后完成压缩并且安装。</p><p>记住安装的目录</p><p>进入到安装的目录</p><p>[<img src="https://s3.ax1x.com/2021/02/08/yUlFJJ.png" alt="yUlFJJ.png">]</p><p>右击VB6.EXE 选择发送到</p><p>[<img src="https://s3.ax1x.com/2021/02/08/yUlZsx.png" alt="yUlZsx.png">]</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>VB</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java中ForEach循环</title>
     <link href="/2021/02/07/javaforeach/"/>
     <url>/2021/02/07/javaforeach/</url>
