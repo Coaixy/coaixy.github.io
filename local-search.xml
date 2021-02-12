@@ -4,6 +4,62 @@
   
   
   <entry>
+    <title>IDEA快捷键</title>
+    <link href="/2021/02/12/ideafast/"/>
+    <url>/2021/02/12/ideafast/</url>
+    
+    <content type="html"><![CDATA[<p>Ctrl+Z：撤销<br>Ctrl+Shift+Z：重做<br>Ctrl+X：剪贴<br>Ctrl+C：复制<br>Ctrl+V：粘贴<br>Ctrl+Y：删除当前行<br>Ctrl+D:复制当前行<br>Ctrl+Shift+J：将选中的行合并成一行<br>Ctrl+N：查找类文件<br>Ctrl+Shift+N：查找文件<br>Ctrl+G：定位到文件某一行<br>Alt+向左箭头：返回上次光标位置<br>Alt+向右箭头：返回至后一次光标位置<br>Ctrl+Shift+Backspace：返回上次编辑位置<br>Ctrl+Shift+反斜杠：返回后一次编辑位置<br>Ctrl+B：定位至变量定义的位置<br>Ctrl+Alt+B：定位至选中类或者方法的具体实现<br>Ctrl+Shift+B:直接定位至光标所在变量的类型定义<br>Ctrl+U：直接定位至当前方法override或者implements的方法定义处<br>Ctrl+F12：显示当前文件的文件结构<br>Ctrl+Alt+F12：显示当前文件的路径，并可以方便的将相关父路径打开<br>Ctrl+H：显示当前类的继承层次<br>Ctrl+Shift+H：显示当前方法的继承层次<br>Ctrl+Alt+H：显示当前方法的调用层次<br>F2：定位至下一个错误处<br>Shift+F2：定位至前一个错误处<br>Ctrl+Alt+向上箭头：查找前一个变量共现的地方<br>Ctrl+Alt+向下箭头：查找下一个变量共现的地方<br>Ctrl+=：展开代码<br>Ctrl+-：收缩代码<br>Ctrl+Alt+=：递归展开代码<br>Ctrl+Alt+-：递归收缩代码<br>Ctrl+Shift+=：展开所有代码<br>Ctrl+Shift+-：收缩所有代码<br>Ctrl+Shitft+向下箭头：将光标所在的代码块向下整体移动<br>Ctrl+Shift+向上箭头：将光标所在的代码块向上整体移动<br>Ctrl+Alt+Shift+向左箭头：将元素向左移动<br>Ctrl+Alt+Shift+向右箭头：将元素向右移动<br>Alt+Shift+向下箭头：将行向下移动<br>Alt+Shift+向上箭头：将行向上移动<br>Ctrl+F：在当前文件中查找<br>Ctrl+R：替换字符串<br>Ctrl+Shift+F:在全局文件中查找字符串<br>Ctrl+Shift+R：在全局中替换字符串<br>Alt+F7：查找当前变量的使用，并列表显示<br>Ctrl+Alt+F7：查找当前变量的使用，并直接对话框提示<br>Ctrl+F7：在文件中查找符号的使用<br>Ctrl+Shift+F7：在文件中高亮显示变量的使用<br>Ctrl+O：重写基类方法<br>Ctrl+I：实现基类或接口中的方法<br>Alt+Insert：产生构造方法，get/set方法等<br>Ctrl+Alt+T：将选中的代码使用if，while，try/catch等包装<br>Ctrl+Shitf+Delete：去除相关的包装代码<br>Alt+/：自动完成<br>Alt+Enter：自动提示完成，抛出异常<br>Ctrl+J：插入Live Template 快速插入一行或者多行代码<br>Ctrl+Alt+J：使用Live Template包装<br>Ctrl+/：使用//注释<br>Ctrl+Shift+/：使用/**/注释<br>Ctrl+Alt+L：格式化代码<br>Ctrl+Alt+I：自动缩进行<br>Ctrl+Alt+O：优化import<br>Ctrl+]：快速跳转至诸如{}围起来的代码块的结尾处<br>Ctrl+[：快速跳转至诸如{}围起来的代码块的开头处<br>Ctrl+Shift+Enter：将输入的if，for，函数等等补上{}或者；使代码语句完整<br>Shift+Enter：在当前行的下方开始新行<br>Ctrl+Alt+Enter：在当前行的上方插入新行<br>Ctrl+Delete：删除光标所在至单词结尾处的所有字符<br>Ctrl+Backspace：删除光标所在至单词开头处的所有字符<br>Ctrl+向左箭头：将光标移至前一个单词<br>Ctrl+向右箭头：将光标移至后一个单词<br>Ctrl+向上箭头：向上滚动一行<br>Ctrl+向下箭头：向下滚动一行<br>Ctrl+W：选中整个单词<br>Ctrl+Shift+U：切换大小写<br>Shift+F6：重命名<br>Ctrl+F6：更改函数签名<br>Ctrl+Shift+F6：更改类型</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Java</tag>
+      
+      <tag>编程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>信息技术实践手册第一章节</title>
+    <link href="/2021/02/10/xxsjsc-1/"/>
+    <url>/2021/02/10/xxsjsc-1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="基本内容"><a href="#基本内容" class="headerlink" title="基本内容"></a>基本内容</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>VB</tag>
+      
+      <tag>算法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VB6文件说明与基础控件</title>
     <link href="/2021/02/08/vb3/"/>
     <url>/2021/02/08/vb3/</url>
