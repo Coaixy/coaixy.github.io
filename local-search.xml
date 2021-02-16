@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>亲戚关系计算器JavaScript调用API</title>
+    <link href="/2021/02/16/qqgxjsq-js/"/>
+    <url>/2021/02/16/qqgxjsq-js/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><p>亲戚关系一直都是让我们难以理解的东西<br>那么我们如何快速知道一个亲戚的称呼呢</p><h2 id="JavaScript库"><a href="#JavaScript库" class="headerlink" title="JavaScript库"></a>JavaScript库</h2><p>我在GitHub看到一个库<br>它有一个方法可以获取亲戚的关系<br><a href="https://github.com/mumuy/relationship">https://github.com/mumuy/relationship</a></p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>使用 require 引入模块</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">var relationship</span> = require(<span class="hljs-string">&quot;relationship.js&quot;</span>);<br></code></pre></td></tr></table></figure><p>使用很简单，只有一个 API 方法 relationship(options).</p><figure class="highlight dust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs dust"><span class="xml">var options = </span><span class="hljs-template-variable">&#123;text:&#x27;儿子的爸爸的妈妈&#x27;,sex:1&#125;</span><span class="xml">;</span><br><span class="xml"><span class="hljs-comment">&lt;!-- 获取结果 --&gt;</span></span><br><span class="xml">relationship(options);</span><br><span class="xml"><span class="hljs-comment">&lt;!-- 其中 --&gt;</span></span><br><span class="xml">var options = </span><span class="hljs-template-variable">&#123;</span><br><span class="hljs-template-variable">text:&#x27;&#x27;,//输入的文本</span><br><span class="hljs-template-variable">sex:-1,//自己的性别：0女性,1男性</span><br><span class="hljs-template-variable">type:&#x27;<span class="hljs-keyword">default</span>&#x27;,//转换类型：&#x27;<span class="hljs-keyword">default</span>&#x27;算称谓,&#x27;chain&#x27;算关系(此时reverse无效)</span><br><span class="hljs-template-variable">reverse:false//称呼方式：true对方称呼我,false我称呼对方</span><br><span class="hljs-template-variable">&#125;</span><span class="xml">;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>JavaScript</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VB6文件说明与基础控件</title>
     <link href="/2021/02/08/vb3/"/>
     <url>/2021/02/08/vb3/</url>
