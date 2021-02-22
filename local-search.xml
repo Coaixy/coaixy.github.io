@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>制作B站个人视频排行-Python实现</title>
+    <link href="/2021/02/22/python-bUserVideoListSorted/"/>
+    <url>/2021/02/22/python-bUserVideoListSorted/</url>
+    
+    <content type="html"><![CDATA[<p>@ 版权所有：Coaixy</p><p>@ 文件名：制作B站个人视频排行</p><p>@ 文件功能描述：娱乐</p><p>@ 创建日期：2021年2月22日</p><p><code>import requests import json bVideoListApi = &quot;https://api.bilibili.com/x/space/arc/search?mid=&quot; #API bUserMid = &quot;103287843&quot;   bUserMid = input(&quot;请输入MID：&quot;) if int(bUserMid) == 1:     bUserMid = &quot;103287843&quot; videoListJson = json.loads(requests.get(bVideoListApi+bUserMid).text) videoListDict = videoListJson[&#39;data&#39;][&#39;list&#39;][&#39;vlist&#39;] #获取视频列表 videoDatas = &#123;&#125; playData = &#123;&#125; index = 0 for videoInfo in videoListDict:     playData[index]=int(videoInfo[&#39;play&#39;])     index += 1     videoDatas[videoInfo[&#39;play&#39;]] = videoInfo[&#39;title&#39;]  #创建关联 playData = list(playData.values()) playData = sorted(playData,reverse=True)  #排序 index = 0 for data in playData:  #输出     print(str(index),&#39;--&#39;,videoDatas[data],data)     index+=1</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+      <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>信息技术黄本答案(不全)(中)</title>
     <link href="/2021/02/21/xxjshbda1/"/>
     <url>/2021/02/21/xxjshbda1/</url>
