@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>JDK自带小工具-JShell,JavaP,JavaDoc</title>
+    <link href="/2021/03/13/jdktools/"/>
+    <url>/2021/03/13/jdktools/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Jshell"><a href="#Jshell" class="headerlink" title="Jshell"></a>Jshell</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Jshell是JDK9后出现的工具，可以在命令行运行</p><p><img src="https://ae01.alicdn.com/kf/Ubc60bd7571a549e8b5460858ca7a969fP.jpg" alt="Jshell"></p><h3 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h3><p><img src="https://www.hualigs.cn/image/604cc767efacb.jpg" alt="获取输入"></p><p><img src="https://ae01.alicdn.com/kf/U9afb7391f8f643de855a1e6b081a3738Z.jpg" alt="辅助提示"></p><h2 id="JavaP"><a href="#JavaP" class="headerlink" title="JavaP"></a>JavaP</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>javap是JDK自带的反汇编器，可以查看java编译器为我们生成的字节码。通过它，我们可以对照源代码和字节码，从而了解很多编译器内部的工作。</p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p><img src="https://ae01.alicdn.com/kf/U2b3cb863a73d47b6ba629f8175f24f676.jpg" alt="测试代码"></p><p><img src="https://ae01.alicdn.com/kf/U41f5064e97ab43aba681f414fe7ff528z.jpg" alt="JavaP说明"></p><p><img src="https://ae01.alicdn.com/kf/U8951167d8e5c40af8f2c1cdf0069ea6eb.jpg" alt="使用1"></p><p><img src="https://ae01.alicdn.com/kf/U4a782cc1948f4555aa2efcfeb0499d7bG.jpg" alt="使用2"></p><h2 id="JavaDoc"><a href="#JavaDoc" class="headerlink" title="JavaDoc"></a>JavaDoc</h2><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>在Windows下对于UTF-8文档需要加参数</p><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs subunit">-encoding utf<span class="hljs-string">-8</span> -charset utf<span class="hljs-string">-8</span> <br></code></pre></td></tr></table></figure><h3 id="使用-1"><a href="#使用-1" class="headerlink" title="使用"></a>使用</h3><p><img src="https://ae01.alicdn.com/kf/U97182d87dc7e44199b638574e483cdfal.jpg" alt="测试代码"></p><p><img src="https://ae01.alicdn.com/kf/U15d1b8c1c5254ca49a00109efedfc39bW.jpg" alt="使用1"></p><p><img src="https://ae01.alicdn.com/kf/U782ffdb8b3b740a1844dab22f280d2aaV.jpg" alt="使用2"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Java</tag>
+      
+      <tag>编程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>腾讯云自媒体分享计划</title>
     <link href="/2021/03/13/yunjia/"/>
     <url>/2021/03/13/yunjia/</url>
@@ -129,35 +156,6 @@
       <tag>Java</tag>
       
       <tag>编程</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>关于获取某程序接口</title>
-    <link href="/2021/02/06/getqb-api/"/>
-    <url>/2021/02/06/getqb-api/</url>
-    
-    <content type="html"><![CDATA[<p>近期听说腾讯8亿数据泄露，网上也有很多人搞到了，而且做出了出格的违法行为，并且公开软件，真是罪大恶极。<br><img src="https://i.loli.net/2021/02/06/AIdePNHKpbqWwr6.jpg" alt="本程序取自网络">本程序取自网络<br><img src="https://i.loli.net/2021/02/06/kuisZNwHcMXRJB6.jpg" alt="软件界面.jpg">软件界面<br><img src="https://i.loli.net/2021/02/06/kuisZNwHcMXRJB6.jpg" alt="对自己进行了测试.jpg">对自己进行了测试<br><img src="https://i.loli.net/2021/02/06/IHhklAWZg1j7xR4.jpg" alt="打开分析工具.jpg">打开分析工具<br><img src="https://i.loli.net/2021/02/06/m8VYpMnRyKeJhD9.jpg" alt="进入主模块.jpg">进入主模块<br><img src="https://i.loli.net/2021/02/06/vaowT5NHyDtqR2Z.jpg" alt="通过字符串查询获取API.jpg">通过字符串查询获取AP<br><img src="https://i.loli.net/2021/02/06/tDHeWNbduxwl8In.jpg" alt="API测试.jpg">API测试<br>作者这里对自己进行了测试，确实可以<br>但是个人信息泄露属于违法犯罪行为，请大家不要尝试。<br>技术无罪，使用者有罪，</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>热点追踪</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>腾讯</tag>
-      
-      <tag>信息安全</tag>
-      
-      <tag>逆向分析</tag>
       
     </tags>
     

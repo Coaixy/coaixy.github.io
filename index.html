@@ -39,7 +39,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"coaixy.github.io","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"blog.coaixy.site","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -153,7 +153,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://pic.netbian.com/uploads/allimg/210122/195550-1611316550d711.jpg') no-repeat center center;
+         style="background: url('/img/back.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -186,6 +186,70 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/03/13/jdktools/">JDK自带小工具-JShell,JavaP,JavaDoc</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/03/13/jdktools/">
+          
+          
+            
+          
+          Jshell简介Jshell是JDK9后出现的工具，可以在命令行运行
+
+基础操作
+
+JavaP简介javap是JDK自带的反汇编器，可以查看java编译器为我们生成的字节码。通过它，我们可以对照源代码和字节码，从而了解很多编译器内部的工作。
+使用
+
+
+
+JavaDoc注意在Windows下对于UTF-8文档需要加参数
+1-encoding utf-8 -charset utf-8 
+使用
+
+
+
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-03-13 21:50" pubdate>
+              2021-03-13
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Java/">Java</a>
+            
+              <a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
 
   <div class="row mx-auto index-card">
     
@@ -462,59 +526,6 @@ trim(参数) - 去除空格
               <a href="/tags/Java/">Java</a>
             
               <a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/02/06/getqb-api/">关于获取某程序接口</a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/02/06/getqb-api/">
-          
-          
-            
-          
-          近期听说腾讯8亿数据泄露，网上也有很多人搞到了，而且做出了出格的违法行为，并且公开软件，真是罪大恶极。本程序取自网络软件界面对自己进行了测试打开分析工具进入主模块通过字符串查询获取APAPI测试作者这里对自己进行了测试，确实可以但是个人信息泄露属于违法犯罪行为，请大家不要尝试。技术无罪，使用者有罪，
-
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-02-06 19:08" pubdate>
-              2021-02-06
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-category"></i>
-            
-              <a href="/categories/%E7%83%AD%E7%82%B9%E8%BF%BD%E8%B8%AA/">热点追踪</a>
-            
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E8%85%BE%E8%AE%AF/">腾讯</a>
-            
-              <a href="/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/">信息安全</a>
-            
-              <a href="/tags/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/">逆向分析</a>
             
           </div>
         
