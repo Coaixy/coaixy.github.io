@@ -241,7 +241,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：20 天前
+                  本文最后更新于：9 分钟前
                 
               </p>
             
@@ -250,6 +250,10 @@
 <p>@ 文件名：制作B站个人视频排行</p>
 <p>@ 文件功能描述：娱乐</p>
 <p>@ 创建日期：2021年2月22日</p>
+<a id="more"></a>
+
+
+
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs axapta">import requests<br>import json<br>bVideoListApi = <span class="hljs-string">&quot;https://api.bilibili.com/x/space/arc/search?mid=&quot;</span> <span class="hljs-meta">#API</span><br>bUserMid = <span class="hljs-string">&quot;103287843&quot;</span>  <br>bUserMid = input(<span class="hljs-string">&quot;请输入MID：&quot;</span>)<br><span class="hljs-keyword">if</span> <span class="hljs-built_in">int</span>(bUserMid) == <span class="hljs-number">1</span>:<br>    bUserMid = <span class="hljs-string">&quot;103287843&quot;</span><br>videoListJson = json.loads(requests.get(bVideoListApi+bUserMid).text)<br>videoListDict = videoListJson[<span class="hljs-string">&#x27;data&#x27;</span>][<span class="hljs-string">&#x27;list&#x27;</span>][<span class="hljs-string">&#x27;vlist&#x27;</span>] <span class="hljs-meta">#获取视频列表</span><br>videoDatas = &#123;&#125;<br>playData = &#123;&#125;<br><span class="hljs-keyword">index</span> = <span class="hljs-number">0</span><br><span class="hljs-keyword">for</span> videoInfo <span class="hljs-keyword">in</span> videoListDict:<br>    playData[<span class="hljs-keyword">index</span>]=<span class="hljs-built_in">int</span>(videoInfo[<span class="hljs-string">&#x27;play&#x27;</span>])<br>    <span class="hljs-keyword">index</span> += <span class="hljs-number">1</span><br>    videoDatas[videoInfo[<span class="hljs-string">&#x27;play&#x27;</span>]] = videoInfo[<span class="hljs-string">&#x27;title&#x27;</span>]  <span class="hljs-meta">#创建关联</span><br>playData = list(playData.values())<br>playData = sorted(playData,<span class="hljs-keyword">reverse</span>=True)  <span class="hljs-meta">#排序</span><br><span class="hljs-keyword">index</span> = <span class="hljs-number">0</span><br><span class="hljs-keyword">for</span> data <span class="hljs-keyword">in</span> playData:  <span class="hljs-meta">#输出</span><br>    <span class="hljs-keyword">print</span>(<span class="hljs-built_in">str</span>(<span class="hljs-keyword">index</span>),<span class="hljs-string">&#x27;--&#x27;</span>,videoDatas[data],data)<br>    <span class="hljs-keyword">index</span>+=<span class="hljs-number">1</span><br></code></pre></td></tr></table></figure>
             </div>
             <hr>
