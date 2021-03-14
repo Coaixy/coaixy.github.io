@@ -17,7 +17,7 @@
   <meta name="description" content="个人小站">
   <meta name="author" content="Coaixy">
   <meta name="keywords" content="Coaixy">
-  <title>JDK自带小工具-JShell,JavaP,JavaDoc - CoaixyのBlog</title>
+  <title>VB实现华容道小游戏-按钮坐标法 - CoaixyのBlog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -174,7 +174,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="JDK自带小工具-JShell,JavaP,JavaDoc">
+            <span class="h2" id="subtitle" title="VB实现华容道小游戏-按钮坐标法">
               
             </span>
 
@@ -189,8 +189,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-03-13 21:50" pubdate>
-        2021年3月13日 晚上
+      <time datetime="2021-03-14 08:53" pubdate>
+        2021年3月14日 早上
       </time>
     </span>
   
@@ -201,7 +201,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      106 字
+      367 字
     </span>
   
 
@@ -211,7 +211,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分钟
     </span>
   
@@ -249,29 +249,30 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">JDK自带小工具-JShell,JavaP,JavaDoc</h1>
+            <h1 style="display: none">VB实现华容道小游戏-按钮坐标法</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：11 小时前
+                  本文最后更新于：几秒前
                 
               </p>
             
             <div class="markdown-body">
-              <h2 id="Jshell"><a href="#Jshell" class="headerlink" title="Jshell"></a>Jshell</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Jshell是JDK9后出现的工具，可以在命令行运行</p>
-<p><img src="https://ae01.alicdn.com/kf/Ubc60bd7571a549e8b5460858ca7a969fP.jpg" srcset="/img/loading.gif" alt="Jshell"></p>
-<h3 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h3><p><img src="https://www.hualigs.cn/image/604cc767efacb.jpg" srcset="/img/loading.gif" alt="获取输入"></p>
-<p><img src="https://ae01.alicdn.com/kf/U9afb7391f8f643de855a1e6b081a3738Z.jpg" srcset="/img/loading.gif" alt="辅助提示"></p>
-<h2 id="JavaP"><a href="#JavaP" class="headerlink" title="JavaP"></a>JavaP</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>javap是JDK自带的反汇编器，可以查看java编译器为我们生成的字节码。通过它，我们可以对照源代码和字节码，从而了解很多编译器内部的工作。</p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p><img src="https://ae01.alicdn.com/kf/U2b3cb863a73d47b6ba629f8175f24f676.jpg" srcset="/img/loading.gif" alt="测试代码"></p>
-<p><img src="https://ae01.alicdn.com/kf/U41f5064e97ab43aba681f414fe7ff528z.jpg" srcset="/img/loading.gif" alt="JavaP说明"></p>
-<p><img src="https://ae01.alicdn.com/kf/U8951167d8e5c40af8f2c1cdf0069ea6eb.jpg" srcset="/img/loading.gif" alt="使用1"></p>
-<p><img src="https://ae01.alicdn.com/kf/U4a782cc1948f4555aa2efcfeb0499d7bG.jpg" srcset="/img/loading.gif" alt="使用2"></p>
-<h2 id="JavaDoc"><a href="#JavaDoc" class="headerlink" title="JavaDoc"></a>JavaDoc</h2><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>在Windows下对于UTF-8文档需要加参数</p>
-<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs subunit">-encoding utf<span class="hljs-string">-8</span> -charset utf<span class="hljs-string">-8</span> <br></code></pre></td></tr></table></figure>
-<h3 id="使用-1"><a href="#使用-1" class="headerlink" title="使用"></a>使用</h3><p><img src="https://ae01.alicdn.com/kf/U97182d87dc7e44199b638574e483cdfal.jpg" srcset="/img/loading.gif" alt="测试代码"></p>
-<p><img src="https://ae01.alicdn.com/kf/U15d1b8c1c5254ca49a00109efedfc39bW.jpg" srcset="/img/loading.gif" alt="使用1"></p>
-<p><img src="https://ae01.alicdn.com/kf/U782ffdb8b3b740a1844dab22f280d2aaV.jpg" srcset="/img/loading.gif" alt="使用2"></p>
+              <h2 id="具体思路"><a href="#具体思路" class="headerlink" title="具体思路"></a>具体思路</h2><ol>
+<li><p>创建按钮数组</p>
+<p><img src="https://ae01.alicdn.com/kf/U93249cbaa8a14f2eb1005e08a4f7d0325.jpg" srcset="/img/loading.gif" alt="按钮数组"></p>
+</li>
+<li><p>指定坐标</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs VB"><span class="hljs-comment">&#x27;宽度</span><br>Aleft(<span class="hljs-number">0</span>) = <span class="hljs-number">960</span><br>Aleft(<span class="hljs-number">1</span>) = <span class="hljs-number">1660</span><br>Aleft(<span class="hljs-number">2</span>) = <span class="hljs-number">2360</span><br>Aleft(<span class="hljs-number">3</span>) = <span class="hljs-number">960</span><br>Aleft(<span class="hljs-number">4</span>) = <span class="hljs-number">1660</span><br>Aleft(<span class="hljs-number">5</span>) = <span class="hljs-number">2360</span><br>Aleft(<span class="hljs-number">6</span>) = <span class="hljs-number">960</span><br>Aleft(<span class="hljs-number">7</span>) = <span class="hljs-number">1660</span><br><span class="hljs-comment">&#x27;高度</span><br>Atop(<span class="hljs-number">0</span>) = <span class="hljs-number">740</span><br>Atop(<span class="hljs-number">1</span>) = <span class="hljs-number">740</span><br>Atop(<span class="hljs-number">2</span>) = <span class="hljs-number">740</span><br>Atop(<span class="hljs-number">3</span>) = <span class="hljs-number">1320</span><br>Atop(<span class="hljs-number">4</span>) = <span class="hljs-number">1320</span><br>Atop(<span class="hljs-number">5</span>) = <span class="hljs-number">1320</span><br>Atop(<span class="hljs-number">6</span>) = <span class="hljs-number">1900</span><br>Atop(<span class="hljs-number">7</span>) = <span class="hljs-number">1900</span><br></code></pre></td></tr></table></figure>
+
+</li>
+<li><p>逻辑代码</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><code class="hljs VB">	cTop = Command1(index).Top <span class="hljs-comment">&#x27;利用VB的按钮数组</span><br>    cLeft = Command1(index).Left<br>    <span class="hljs-keyword">If</span> cTop - <span class="hljs-number">1</span> &gt; <span class="hljs-number">740</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">&#x27;上</span><br>        mflag = <span class="hljs-literal">True</span><br>        nTop = cTop - <span class="hljs-number">580</span><br>        nLeft = cLeft<br>        <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">7</span><br>            <span class="hljs-keyword">If</span> Command1(i).Left = nLeft <span class="hljs-built_in">And</span> Command1(i).Top = nTop <span class="hljs-keyword">Then</span> mflag = <span class="hljs-literal">False</span><br>        <span class="hljs-keyword">Next</span> i<br>        <span class="hljs-keyword">If</span> mflag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> flagA = <span class="hljs-literal">True</span>: moveTop = nTop: moveLeft = nLeft<br>    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>    <span class="hljs-keyword">If</span> flagA = <span class="hljs-literal">False</span> <span class="hljs-built_in">And</span> cTop + <span class="hljs-number">1</span> &lt; <span class="hljs-number">1900</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">&#x27;下</span><br>        mflag = <span class="hljs-literal">True</span><br>        <br>        nTop = cTop + <span class="hljs-number">580</span><br>        nLeft = cLeft<br>        <br>        <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">7</span><br>            <span class="hljs-keyword">If</span> Command1(i).Left = nLeft <span class="hljs-built_in">And</span> Command1(i).Top = nTop <span class="hljs-keyword">Then</span> mflag = <span class="hljs-literal">False</span><br>        <span class="hljs-keyword">Next</span> i<br>        <span class="hljs-keyword">If</span> mflag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> flagA = <span class="hljs-literal">True</span>: moveTop = nTop: moveLeft = nLeft<br>    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>    <span class="hljs-keyword">If</span> flagA = <span class="hljs-literal">False</span> <span class="hljs-built_in">And</span> cLeft + <span class="hljs-number">1</span> &lt; <span class="hljs-number">2360</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">&#x27;右</span><br>        mflag = <span class="hljs-literal">True</span><br>        nTop = cTop<br>        nLeft = cLeft + <span class="hljs-number">700</span><br>        <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">7</span><br>            <span class="hljs-keyword">If</span> Command1(i).Left = nLeft <span class="hljs-built_in">And</span> Command1(i).Top = nTop <span class="hljs-keyword">Then</span> mflag = <span class="hljs-literal">False</span><br>        <span class="hljs-keyword">Next</span> i<br>        <span class="hljs-keyword">If</span> mflag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> flagA = <span class="hljs-literal">True</span>: moveTop = nTop: moveLeft = nLeft<br>    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>    <span class="hljs-keyword">If</span> flagA = <span class="hljs-literal">False</span> <span class="hljs-built_in">And</span> cLeft - <span class="hljs-number">1</span> &gt; <span class="hljs-number">960</span> <span class="hljs-keyword">Then</span>  <span class="hljs-comment">&#x27;左</span><br>        mflag = <span class="hljs-literal">True</span><br>        nTop = cTop<br>        nLeft = cLeft - <span class="hljs-number">700</span><br>        <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">7</span><br>            <span class="hljs-keyword">If</span> Command1(i).Left = nLeft <span class="hljs-built_in">And</span> Command1(i).Top = nTop <span class="hljs-keyword">Then</span> mflag = <span class="hljs-literal">False</span><br>        <span class="hljs-keyword">Next</span> i<br>        <span class="hljs-keyword">If</span> mflag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> flagA = <span class="hljs-literal">True</span>: moveTop = nTop: moveLeft = nLeft<br>    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>    <span class="hljs-keyword">If</span> flagA = <span class="hljs-literal">True</span> <span class="hljs-built_in">And</span> mflag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> is_ok = <span class="hljs-literal">True</span> <span class="hljs-keyword">Else</span> moveLeft = nLeft: moveTop = nTop<br>    <br>    <br>    <br><span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span><br><span class="hljs-keyword">Function</span> is_win() <span class="hljs-keyword">As</span> <span class="hljs-type">Boolean</span> <span class="hljs-comment">&#x27;检测是否完成</span><br>    is_win = <span class="hljs-literal">False</span><br>    <span class="hljs-keyword">Dim</span> i <span class="hljs-keyword">As</span> <span class="hljs-type">Integer</span>, flag <span class="hljs-keyword">As</span> <span class="hljs-type">Boolean</span><br>    flag = <span class="hljs-literal">True</span><br>    <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">7</span><br>        <span class="hljs-comment">&#x27;If Command1(i).top = Atop(i) And Command1(i).left = Aleft(i) Then 		Command1(i).Caption = &quot;ok&quot;</span><br>        <span class="hljs-keyword">If</span> Command1(i).Top &lt;&gt; Atop(i) <span class="hljs-built_in">Or</span> Command1(i).Left &lt;&gt; Aleft(i) <span class="hljs-keyword">Then</span> flag = <span class="hljs-literal">False</span><br>    <span class="hljs-keyword">Next</span> i<br>    <span class="hljs-keyword">If</span> flag = <span class="hljs-literal">True</span> <span class="hljs-keyword">Then</span> is_win = <span class="hljs-literal">True</span><br></code></pre></td></tr></table></figure>
+
+</li>
+<li><p>优化界面</p>
+</li>
+</ol>
 
             </div>
             <hr>
@@ -281,7 +282,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a>
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
                     
                   </div>
                 
@@ -289,9 +290,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/Java/">Java</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/VB/">VB</a>
                     
                   </div>
                 
@@ -304,18 +305,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/03/14/vbhrdzbf/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">VB实现华容道小游戏-按钮坐标法</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/03/13/yunjia/">
-                        <span class="hidden-mobile">腾讯云自媒体分享计划</span>
+                      <a href="/2021/03/13/jdktools/">
+                        <span class="hidden-mobile">JDK自带小工具-JShell,JavaP,JavaDoc</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
